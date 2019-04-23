@@ -6,7 +6,6 @@ class UsersTest < ActionDispatch::IntegrationTest
   #   assert true
   # end
   
-	test "Should view profileinfo" do
   	setup do
   		visit ('http://localhost:3000/')
   		def signUpUser()
@@ -29,7 +28,7 @@ class UsersTest < ActionDispatch::IntegrationTest
 		end
   	end
 	test "Should_view_profileinfo" do
-		visit ('http://localhost:3000/')
+		# visit ('http://localhost:3000/')
 		click_on('Discover Talk Show Hosts')
 		assert_text ('Discussion Hosts')
 	end
@@ -170,3 +169,4 @@ class UsersTest < ActionDispatch::IntegrationTest
 
 		
 end
+

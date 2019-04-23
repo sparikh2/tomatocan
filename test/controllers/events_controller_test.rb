@@ -4,7 +4,7 @@ class EventsControllerTest < ActionController::TestCase
     @event = events(:one)
     @user = users(:one)
     end
-
+#Getting error on the line 8-11*********************************************
     test "should retrieve list of all events"do
         get :index
         assert_response :success

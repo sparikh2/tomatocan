@@ -56,5 +56,6 @@ end
 #  assert_equal(e.code, 'card_declined')}
 #  StripeMock.stop
 
-#end
+#end merchmobi = /home/sanket/tomatocan/public/merchandise/298486374/merc merchmobi = /home/sanket/tomatocan/public/merchandise/298486374/merchmobi/Test.mobi
+
 end

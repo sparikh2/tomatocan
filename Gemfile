@@ -1,5 +1,5 @@
 source 'http://rubygems.org'
-ruby "2.5.3"
+ruby "2.6.1"
 
 gem 'listen'
 gem 'rails-controller-testing'
@@ -26,7 +26,7 @@ gem 'aws-sdk'
 
 gem 'rails', '5.2.1'
 gem 'railties', '5.2.1'
-gem  'bootstrap-sass', '~> 3.2.0'
+gem  'bootstrap-sass', '~> 3.2.0.2'
 gem 'autoprefixer-rails'
 #gem 'sprockets'
 gem "will_paginate", "~> 3.0.6" 
@@ -42,8 +42,10 @@ gem 'friendly_id', '~> 5.0.0'
 
 group :test, :development do
 #  gem 'factory_girl_rails'
-#  gem 'capybara'
+   gem 'capybara'
 #  gem 'mocha', '~> 1.1.0'
+   gem 'selenium-webdriver'
+   gem 'stripe-ruby-mock',:require =>'stripe_mock'
 end
 
 group :production do
