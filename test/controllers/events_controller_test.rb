@@ -16,7 +16,7 @@ class EventsControllerTest < ActionController::TestCase
     test "should get new event" do
         sign_in users(:one)
         get :new
-        assert_response :success
+        assert_response :successone
     end
     test "should get past events" do
         get :pastevents, params: {permalink: 'user1'}
