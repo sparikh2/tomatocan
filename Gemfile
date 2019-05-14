@@ -46,6 +46,7 @@ group :test, :development do
 #  gem 'mocha', '~> 1.1.0'
    gem 'selenium-webdriver'
    gem 'stripe-ruby-mock',:require =>'stripe_mock'
+   gem 'capybara-screenshot'
 end
 
 group :production do
