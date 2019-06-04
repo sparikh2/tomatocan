@@ -1,9 +1,17 @@
 /* This stylesheet is for panels found in views/layouts and for users/controlpanel */
 
 /* _maincalendar */
+#dashboardTabs{
+  padding-top: 50px;
+}
+
 #calendar td {
   text-align: left;
   vertical-align: middle !important;
+}
+
+#shows-button-panel{
+  padding-top: 25px;
 }
 
 #calendar-event {

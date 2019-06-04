@@ -41,8 +41,13 @@ gem 'friendly_id', '~> 5.0.0'
 #gem 'rmagick'
 
 group :test, :development do
+  gem 'minitest'
+  gem 'simplecov'
+  gem 'simplecov-lcov'
+
 #  gem 'factory_girl_rails'
    gem 'capybara'
+   gem 'apparition'
 #  gem 'mocha', '~> 1.1.0'
    gem 'selenium-webdriver'
    gem 'stripe-ruby-mock',:require =>'stripe_mock'
